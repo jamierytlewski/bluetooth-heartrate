@@ -1,14 +1,14 @@
 {
-  "name": "bluetooh-heartrate-wc",
+  "name": "bluetooth-heartrate-wc",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "main": "heart-rate.js",
   "module": "heart-rate.js",
   "types": "heart-rate.d.ts",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc",
     "preview": "vite preview"
   },
   "dependencies": {

@@ -1,0 +1,1 @@
+{"version":3,"file":"HeartRateModel.js","sourceRoot":"","sources":["../src/models/HeartRateModel.ts"],"names":[],"mappings":"","sourcesContent":["export interface HeartRateModel {\r\n  heartRate: number;\r\n}\r\n"]}
