@@ -1,7 +1,7 @@
 {
-  "name": "vite-lit-ts-starter",
-  "private": true,
-  "version": "0.0.0",
+  "name": "bluetooh-heartrate-wc",
+  "private": false,
+  "version": "0.0.1",
   "type": "module",
   "main": "heart-rate.js",
   "module": "heart-rate.js",
