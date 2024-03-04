@@ -1,0 +1,22 @@
+{
+  "name": "vite-lit-ts-starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "heart-rate.js",
+  "module": "heart-rate.js",
+  "types": "heart-rate.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/web-bluetooth": "^0.0.20",
+    "lit": "^3.1.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.1.1"
+  }
+}
