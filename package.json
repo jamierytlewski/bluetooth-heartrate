@@ -3,9 +3,9 @@
   "private": false,
   "version": "0.0.2",
   "type": "module",
-  "main": "heart-rate.js",
-  "module": "heart-rate.js",
-  "types": "heart-rate.d.ts",
+  "main": "dist/heart-rate.js",
+  "module": "dist/heart-rate.js",
+  "types": "dist/heart-rate.d.ts",
   "scripts": {
     "dev": "vite",
     "build": "tsc",
