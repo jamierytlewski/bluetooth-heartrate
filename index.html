@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + Lit + TS</title>
+    <link rel="stylesheet" href="./src/index.css" />
+    <script type="module" src="/src/heart-rate.ts"></script>
+    <script type="module" src="/src/github-user.ts"></script>
+    <style>
+      heart-rate {
+        color: red;
+      }
+
+      github-user {
+        --border-color: green;
+        --header-color: skyblue;
+      }
+    </style>
+  </head>
+  <body>
+    <heart-rate></heart-rate>
+
+    <form>
+      <label for="username">GitHub username:</label>
+      <input type="text" id="username" />
+      <button type="submit">Load</button>
+    </form>
+    <github-user username="jamierytlewski"></github-user>
+
+    <script>
+      const form = document.querySelector("form");
+      form.addEventListener("submit", (event) => {
+        event.preventDefault();
+        const username = document.querySelector("#username").value;
+        const githubUser = document.querySelector("github-user");
+        githubUser.setAttribute("username", username);
+      });
+    </script>
+  </body>
+</html>
